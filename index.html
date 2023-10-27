@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Arceus</title>
+    <link rel="stylesheet" href="assets/index-14f2cbf6.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="content">
+      <nav class="navbar px-1 py-2 sticky w-full text-yellow-100 top-0 z-10">
+        <div class="nav-wrapper flex justify-between items-center">
+          <div class="logo-container">
+            <h3 class="text-[16px]">Arceus</h3>
+          </div>
+          <div class="searchbar-container">
+            <input
+              type="text"
+              placeholder="Search Here..."
+              class="w-full ml-3 rounded-xl p-1 bg-gray-900 pl-7 text-sm text-yellow-400 outline-none"
+              id="inputSearch"
+            />
+            <i
+              class="fa fa-search search absolute text-yellow-500 top-1 left-5 text-sm"
+            ></i>
+            <span
+              class="cursor-pointer absolute text-yellow-500 top-1 font-bold hidden left-[198px] cross"
+              id="clearbtn"
+              >X</span
+            >
+          </div>
+          <div class="menu flex items-center">
+            <ul class="flex">
+              <li
+                class="hidden ml-7 font-medium transition-all hover:text-orange-400"
+              >
+                <a href="#home">Home</a>
+              </li>
+              <li
+                class="hidden ml-7 font-medium transition-all hover:text-orange-400"
+              >
+                <a href="#collection">Our Collection</a>
+              </li>
+              <li
+                class="hidden ml-7 font-medium transition-all hover:text-orange-400"
+              >
+                <a href="#feedback">About Us</a>
+              </li>
+            </ul>
+            <i class="fa fa-bars ml-7 mr-2" id="dropdown-btn"></i>
+          </div>
+        </div>
+        <div
+          id="dropdown"
+          class="text-xs w-fit bg-contain absolute right-0 top-11 overflow-hidden shadow-xl rounded-bl-md transition-all h-0"
+        >
+          <ul class="text-center">
+            <li class="px-2 b-red-300 hover:text-yellow-500"><a href="#home">Home</a></li>
+            <li class="px-2 hover:text-yellow-500">
+              <a href="#collection">Our Collections</a>
+            </li>
+            <li class="px-2 hover:text-yellow-500">
+              <a href="#aboutus">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div
+        id="home"
+        class="section carousel bg-gray-50 bg-opacity-20 mb-10 h-56"
+      >
+        <div class="slider h-full">
+          <div
+            class="card bg-fixed overflow-hidden bg-no-repeat relative flex h-full px-1"
+          >
+            <div class="card-left">
+              <h2 class="text-4xl font-bold text-center tracking-[7px] mb-2">
+                Gold<span class="text-red-600 mx-1">&</span>Glory
+              </h2>
+              <p
+                class="text-yellow-400 font-semibold tracking-wide px-6 place-self-center leading-5 text-xs z-[7]"
+              >
+                Gold & Glory - Within these pages lie the keys to open worlds of
+                wonder and adventure! Whether you are exploring dank dungeons,
+                forging.
+              </p>
+              <button
+                class="p-1 px-1 text-xs tracking-widest my-5 font-bold bg-yellow-400 text-black uppercase border border-black absolute left-7"
+              >
+                Read
+              </button>
+            </div>
+            <div class="card-right">
+              <img
+                src="assets/eagle_king-6c2586b5.png"
+                class="scale-x-[-1] -rotate-[18deg] absolute -bottom-10 z-0 w-36 -right-5 animate-pulse"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="collection" class="px-6 py-2 section">
+        <div class="latest relative">
+          <h3 class="text-xs tracking-widest uppercase mb-5">
+            latest arrivals
+          </h3>
+          <button id="left" class="btn_1 -left-5 top-1/2">
+            <i
+              class="fa fa-chevron-left text-xl text-blue-800 font-thin transition hover:text-blue-600"
+            ></i>
+          </button>
+          <button id="right" class="btn_1 -right-5 top-1/2">
+            <i
+              class="fa fa-chevron-right text-xl text-blue-800 font-thin transition hover:text-blue-600"
+            ></i>
+          </button>
+          <div class="container container-1 flex overflow-hidden">
+            <a href="#" class="flex-shrink-0 w-32 h40 mr-5"
+              ><img class="img" src="assets/1-2e5d9164.jpeg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/2-6de22189.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/3-a973bea9.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/4-296983d7.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/5-5d711b81.webp" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/6-c08bb578.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/1-2e5d9164.jpeg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/2-6de22189.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/3-a973bea9.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/4-296983d7.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/5-5d711b81.webp" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/6-c08bb578.jpg" alt=""
+            /></a>
+            <a
+              href="#"
+              class="inline-block rounded-xl h-1/2 place-self-center min-w-[110px] -ml-2"
+            >
+              <div
+                class="view_more bg-blue-950 rounded-xl text-center inline-block p-2 text-dm transition-all hover:bg-slate-950 bg-opacity-50 cursor-pointer w-full"
+              >
+                View more
+                <i class="fa fa-chevron-right text-sm ml-1 transition-all"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="top_stories relative">
+          <h3 class="text-xs tracking-widest uppercase my-5">top stories</h3>
+          <button id="left" class="btn_2 -left-5 top-1/2">
+            <i
+              class="fa fa-chevron-left text-xl text-blue-800 font-thin transition hover:text-blue-600"
+            ></i>
+          </button>
+          <button id="right" class="btn_2 -right-5 top-1/2">
+            <i
+              class="fa fa-chevron-right text-xl text-blue-800 font-thin transition hover:text-blue-600"
+            ></i>
+          </button>
+          <div class="container container-2 flex overflow-hidden">
+            <a href="#" class="flex-shrink-0 w-32 h40 mr-5"
+              ><img class="img" src="assets/1-2e5d9164.jpeg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/2-6de22189.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/3-a973bea9.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/4-296983d7.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/5-5d711b81.webp" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/6-c08bb578.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/1-2e5d9164.jpeg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/2-6de22189.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/3-a973bea9.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/4-296983d7.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/5-5d711b81.webp" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img" src="assets/6-c08bb578.jpg" alt=""
+            /></a>
+            <a
+              href="#"
+              class="inline-block rounded-xl h-1/2 place-self-center min-w-[110px] ml-[15px]"
+            >
+              <div
+                class="view_more bg-blue-950 rounded-xl text-center inline-block p-2 text-md transition-all hover:bg-slate-950 bg-opacity-50 cursor-pointer w-full"
+              >
+                View more
+                <i class="fa fa-chevron-right text-sm ml-1 transition-all"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="upcoming relative">
+          <h3 class="text-xs tracking-widest uppercase my-5">Upcoming books</h3>
+          <button id="left" class="btn_3 -left-5 top-1/2">
+            <i
+              class="fa fa-chevron-left text-xl text-blue-800 font-thin transition hover:text-blue-600"
+            ></i>
+          </button>
+          <button id="right" class="btn_3 -right-5 top-1/2">
+            <i
+              class="fa fa-chevron-right text-xl text-blue-800 font-thin transition hover:text-blue-600"
+            ></i>
+          </button>
+          <div class="container container-3 flex overflow-hidden">
+            <a href="#" class="flex-shrink-0 w-32 h40 mr-5"
+              ><img class="img saturate-0 hover:saturate-150" src="assets/1-2e5d9164.jpeg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img saturate-0 hover:saturate-150" src="assets/2-6de22189.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img saturate-0 hover:saturate-150" src="assets/3-a973bea9.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img saturate-0 hover:saturate-150" src="assets/4-296983d7.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img saturate-0 hover:saturate-150" src="assets/5-5d711b81.webp" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img saturate-0 hover:saturate-150" src="assets/6-c08bb578.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img saturate-0 hover:saturate-150" src="assets/1-2e5d9164.jpeg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img saturate-0 hover:saturate-150" src="assets/2-6de22189.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img saturate-0 hover:saturate-150" src="assets/3-a973bea9.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img saturate-0 hover:saturate-150" src="assets/4-296983d7.jpg" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img saturate-0 hover:saturate-150" src="assets/5-5d711b81.webp" alt=""
+            /></a>
+            <a href="#" class="flex-shrink-0 w-32 mr-5"
+              ><img class="img saturate-0 hover:saturate-150" src="assets/6-c08bb578.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <!-- <section
+        id="feedback"
+        class="section align-middle px-10 flex justify-between h-90"
+      >
+        <div class="left-content w-1/2">
+          <h3 class="my-5 text-xl">Have Any Suggestion for us?</h3>
+          <textarea
+            name=""
+            id=""
+            class="h-96 w-full mx-auto resize-none bg-gray-800 rounded outline-none p-5 text-yellow-500"
+            placeholder="Write Here"
+          ></textarea>
+        </div>
+        <div class="right-content flex justify-between items-center">
+          <button
+            class="bg-gray-950 h-min p-2 ml-10 transition-all rounded-md hover:bg-gray-800"
+          >
+            Submit <i class="fa fa-arrow-right ml-2"></i>
+          </button>
+          <img src="assets/anime_girl.png" class="w-1/2 mt-5" />
+        </div>
+      </section> -->
+      <footer class="flex justify-between px-6 py-5 bg-gray-950 text-xs">
+        <h3>&copy; All rights are reserved</h3>
+        <div class="social">
+          <i class="fa fa-facebook text-xs ml-3"></i>
+          <i class="fa fa-instagram text-xs ml-3"></i>
+          <i class="fa fa-twitter text-xs ml-3"></i>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  </body>
+</html>
